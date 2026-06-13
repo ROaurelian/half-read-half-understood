@@ -1,1 +1,1 @@
-[[MCU architecture]]
+[[MCU_architecture]]

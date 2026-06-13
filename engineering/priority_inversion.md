@@ -1,8 +1,8 @@
 ## Bounded priority inversion
-![[Pasted image 20230815105856.png]]
+![[pasted_image_20230815105856.png]]
 
 ## Unbounded priority inversion
-![[Pasted image 20230815110059.png]]
+![[pasted_image_20230815110059.png]]
 
 ## Debugging
 - Priority ceiling: When taking a [[MUTEX]], a task is dynamically assigned the highest priority. At the returning, the task returns to default priority. 

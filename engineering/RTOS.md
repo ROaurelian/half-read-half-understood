@@ -2,7 +2,7 @@ A Real Time Operating System provides part of the same functionality as a [[GPOS
 Generally used in embedded systems for concurrent multitasking.
 
 ### Definitions
-1. [[Task]]: Set of instructions
+1. [[task]]: Set of instructions
 2. Thread: Unit of CPU utilization with its own stack
 
 ### Types

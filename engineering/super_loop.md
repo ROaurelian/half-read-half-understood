@@ -1,4 +1,4 @@
-![[Pasted image 20230811111143.png|500]]
+![[pasted_image_20230811111143.png|500]]
 
 Stays in an infinite while loop.
 

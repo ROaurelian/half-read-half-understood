@@ -1,5 +1,5 @@
 When none of the tasks execute, they return to a standstill.
-Caused by bad administration of [[MUTEX]] and [[Semaphores]].
+Caused by bad administration of [[MUTEX]] and [[semaphores]].
 To avoid this bug:
 - Include a default behavior for a timeout (f.e. return a [[MUTEX]]).
 

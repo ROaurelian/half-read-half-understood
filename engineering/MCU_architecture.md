@@ -2,26 +2,26 @@ System on a chip (SoC): Unites different chips with diff. functionalities under 
 
 ### Core architecture
 [[CPU]]
-[[Flash]]
+[[flash]]
 [[RAM]]
 
-[[Internal System Bus]]
+[[internal_system_bus]]
 
 ### Peripherals 
 Perform operations outside the standard.
 [[UART]]
 [[SPI]]
 [[I2C]]
-[[Timers]]
+[[timers]]
 [[GPIO]]
 [[ADC]]
 [[DMA]]
 
-### [[Pin multiplexer]]
+### [[pin_multiplexer]]
 
 ### [[Interrupt controller]]
 
-### [[Clock]]
+### [[clock]]
 
 ### [[Debugger]]
 

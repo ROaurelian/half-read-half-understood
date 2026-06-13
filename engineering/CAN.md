@@ -7,7 +7,7 @@ The voltage on one cable is inverted in respect to its pair.
 Devices must be connected <30cm form CAN BUS.
 Data is an expression of the difference between the signals.
 
-![[Pasted image 20230714130859.png|500]]
+![[pasted_image_20230714130859.png|500]]
 1 = Recessive = 0V dif
 0 = Dominant = 2V dif 
 
@@ -41,7 +41,7 @@ If either CAN_H or CAN_L are shorted, both will be affected. If you detect this 
 ### Topology
 - Ring: Usually no used.
 - Star: Star CAN BUS (all wires connect to 2 terminals).
-![[Pasted image 20230809112511.png|500]]
+![[pasted_image_20230809112511.png|500]]
 - Bus: Can be in parallel (star) or serial. For serial troubleshooting, jump cables to test a defective module.
 
 

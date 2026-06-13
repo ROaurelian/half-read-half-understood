@@ -7,12 +7,12 @@ Release time: when is the task ready to perform.
 Preemption: When task takes over the process because of higher priority. At the end of execution time, processor returns to a lower priority previous task.
 
 ### States
-![[Pasted image 20230813200618.png|500]]|
+![[pasted_image_20230813200618.png|500]]|
 
 ### Communication
 Uses the [[Queue]] to for inter-task communication.
 
 ### Bugs 
-[[Deadlock]]
-[[Starvation]]
-[[Priority Inversion]]
+[[deadlock]]
+[[starvation]]
+[[priority_inversion]]
