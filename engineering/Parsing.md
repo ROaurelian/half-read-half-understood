@@ -1,0 +1,1 @@
+Arranges every element into the [[Abstract Syntax Tree]].
