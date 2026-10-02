@@ -1,38 +1,24 @@
 {
   "main": {
-    "id": "34476478a8ef989c",
+    "id": "e7e3f635ef80b764",
     "type": "split",
     "children": [
       {
-        "id": "58d2f19e42b8879c",
+        "id": "59f4c37781ed6388",
         "type": "tabs",
         "children": [
           {
-            "id": "111649bfee34ac89",
+            "id": "e3ea40445170b6f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CAN-FD.md",
-                "mode": "preview",
+                "file": "project_ideas.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CAN-FD"
-            }
-          },
-          {
-            "id": "1980188ce74f084b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DMA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DMA"
+              "title": "project_ideas"
             }
           }
         ]
@@ -41,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "74d50a3e95b1dc28",
+    "id": "f3ece98d080b4217",
     "type": "split",
     "children": [
       {
-        "id": "512a7010cf5e47c0",
+        "id": "abbbdc20529ceaf3",
         "type": "tabs",
         "children": [
           {
-            "id": "ef4d8f2015c3d9ef",
+            "id": "7c00ae33e2f53dc7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +48,7 @@
             }
           },
           {
-            "id": "f2211038d8371769",
+            "id": "fb9c791abdcf46de",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +65,7 @@
             }
           },
           {
-            "id": "52e405563efc2c9b",
+            "id": "a6b3374666215183",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -95,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "3b57ec4d12f78480",
+    "id": "1ff726591af47142",
     "type": "split",
     "children": [
       {
-        "id": "f3d9fc4bb015af3a",
+        "id": "b40efe60792dbc76",
         "type": "tabs",
         "children": [
           {
-            "id": "447e93b9b9911a87",
+            "id": "67e18592fcb463bd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embedded Systems Engineer, Mid-Senior Interview Study Guide.md",
+                "file": "project_ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Embedded Systems Engineer, Mid-Senior Interview Study Guide"
+              "title": "Backlinks for project_ideas"
             }
           },
           {
-            "id": "9e8e06bef709189f",
+            "id": "00f0c83944fe8ef3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Embedded Systems Engineer, Mid-Senior Interview Study Guide.md",
+                "file": "project_ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Embedded Systems Engineer, Mid-Senior Interview Study Guide"
+              "title": "Outgoing links from project_ideas"
             }
           },
           {
-            "id": "ed2b20af5cf08e12",
+            "id": "dacfaddb5760b6d3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,18 +137,32 @@
             }
           },
           {
-            "id": "5d77499225ac3642",
+            "id": "04eaf7aedf095d58",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ea25dbb2f7a1168f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Embedded Systems Engineer, Mid-Senior Interview Study Guide.md",
+                "file": "project_ideas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Embedded Systems Engineer, Mid-Senior Interview Study Guide"
+              "title": "Outline of project_ideas"
             }
           }
         ]
@@ -174,57 +174,60 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "bases:Create new base": false
     }
   },
-  "active": "111649bfee34ac89",
+  "active": "e3ea40445170b6f0",
   "lastOpenFiles": [
-    "CAN.md",
-    "C++.md",
-    "AMP.md",
-    "Alpine Linux.md",
-    "Embedded Systems Engineer, Mid-Senior Interview Study Guide.md",
-    "MCU.md",
-    "Starvation.md",
-    "DMA.md",
-    "CMSIS.md",
-    "Deadlock.md",
-    "ECU.md",
-    "Code generation.md",
-    "Clock.md",
-    "MCU architecture.md",
-    "SMP.md",
-    "Kernel.md",
-    "GNU.md",
-    "Images/Pasted image 20230815132554.png",
-    "Task.md",
-    "Images/Pasted image 20230815105856.png",
-    "Priority Inversion.md",
-    "Images/Pasted image 20230815110059.png",
-    "Semaphores.md",
-    "MUTEX.md",
-    "Timers.md",
-    "Images/Pasted image 20230815080059.png",
-    "Queue.md",
-    "RTOS.md",
-    "Atomic Operations.md",
-    "CAN-FD.md",
-    "Images/Pasted image 20230714130859.png",
-    "Images",
-    "Images/Pasted image 20230813200618.png",
-    "Images/Pasted image 20230811111143.png",
-    "Images/Pasted image 20230809112511.png",
-    "Images/Pasted image 20230802111113.png",
-    "Images/Pasted image 20230802102237.png",
-    "Untitled.canvas",
-    "Excalidraw",
-    "Full stack"
+    "study_guides/embedded_systems_engineer_mid-sr.md",
+    "project_ideas.md",
+    "engineering/Excalidraw/stack_drawing.md",
+    "engineering/DMA.md",
+    "engineering/Images/pasted_image_20230815132554.png",
+    "engineering/Images/pasted_image_20230815110059.png",
+    "engineering/Images/pasted_image_20230815105856.png",
+    "engineering/Images/pasted_image_20230815080059.png",
+    "engineering/Images/pasted_image_20230813200618.png",
+    "engineering/Images/pasted_image_20230811111143.png",
+    "engineering/Images/pasted_image_20230809112511.png",
+    "engineering/Images/pasted_image_20230802111113.png",
+    "engineering/Images/pasted_image_20230802102237.png",
+    "engineering/Images/pasted_image_20230714130859.png",
+    "engineering/timers.md",
+    "engineering/task.md",
+    "engineering/super_loop.md",
+    "engineering/starvation.md",
+    "engineering/stack.md",
+    "engineering/semaphores.md",
+    "engineering/queue.md",
+    "engineering/priority_inversion.md",
+    "engineering/pin_multiplexer.md",
+    "engineering/parsing.md",
+    "engineering/linker.md",
+    "engineering/lexing.md",
+    "engineering/kernel.md",
+    "engineering/internal_system_bus.md",
+    "engineering/heap.md",
+    "engineering/flash.md",
+    "engineering/deadlock.md",
+    "engineering/compiler.md",
+    "engineering/code_generation.md",
+    "engineering/clock.md",
+    "engineering/atomic_operations.md",
+    "engineering/alpine_linux.md",
+    "engineering/Images",
+    "engineering/Excalidraw",
+    "engineering",
+    "study_guides/embedded_systems_engineer_mid-senior_interview_study_guide.md.tmp.31053.ae4bc6ed26f4",
+    "study_guides/embedded_systems_engineer_mid-senior_interview_study_guide.md.tmp.31053.87afd8bcd629",
+    "src/Images",
+    "src/Excalidraw",
+    "src"
   ]
 }
