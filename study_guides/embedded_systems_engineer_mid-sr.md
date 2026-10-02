@@ -5,48 +5,50 @@
 
 Grouped by theme. **Section numbers follow document order** (sections appear in the file in numeric order), so the numbering is stable even though the groups below reorder them for reading.
 
+Each entry carries an Obsidian heading link plus a `gh` slug link, so the table of contents navigates correctly both in Obsidian and in GitHub-style Markdown renderers.
+
 ### Part I — Languages, Libraries, and Software Engineering
 
-- 1. [[#1. C/C++ for Embedded|C/C++ for Embedded]] — `volatile`, UB, startup, linker scripts, RAII on hardware
-- 13. [[#13. Advanced OOP in Modern C++ (C++17 and Later)|Advanced OOP in Modern C++ (C++17+)]] — object model, rule of zero/five, variant vs virtual vs CRTP, concepts, memory model, pImpl
-- 16. [[#16. STL and Boost|STL and Boost]] — iterators, ranges, `std::function`, what's unsafe in firmware, Asio, Intrusive, flat hash maps, `chrono`
-- 14. [[#14. Data Structures|Data Structures]] — cache effects vs Big-O, vector/map/hash internals, ring buffers, B-trees, tries, heaps, bloom filters, AoS vs SoA
-- 15. [[#15. Algorithms|Algorithms]] — complexity classes in real time, sort/search internals, DP, graph search, bit manipulation, CRC, fixed point
-- 4. [[#4. Build Systems: Make, CMake, Cross-Compilation|Build Systems: Make, CMake, Cross-Compilation]]
-- 19. [[#19. Docker and Containerized Development|Docker and Containerized Development]] — kernel mechanics, layers and caching, cross-compile images, multi-arch, fleet deployment
+- **§1** [[#1. C and C++ for Embedded|C and C++ for Embedded]] ([gh](#1-c-and-c-for-embedded)) — `volatile`, UB, startup, linker scripts, RAII on hardware
+- **§13** [[#13. Advanced OOP in Modern C++|Advanced OOP in Modern C++ (C++17 and later)]] ([gh](#13-advanced-oop-in-modern-c)) — object model, rule of zero/five, variant vs virtual vs CRTP, concepts, memory model, pImpl
+- **§16** [[#16. STL and Boost|STL and Boost]] ([gh](#16-stl-and-boost)) — iterators, ranges, `std::function`, what's unsafe in firmware, Asio, Intrusive, flat hash maps, `chrono`
+- **§14** [[#14. Data Structures|Data Structures]] ([gh](#14-data-structures)) — cache effects vs Big-O, vector/map/hash internals, ring buffers, B-trees, tries, heaps, bloom filters, AoS vs SoA
+- **§15** [[#15. Algorithms|Algorithms]] ([gh](#15-algorithms)) — complexity classes in real time, sort/search internals, DP, graph search, bit manipulation, CRC, fixed point
+- **§4** [[#4. Build Systems: Make, CMake, Cross-Compilation|Build Systems: Make, CMake, Cross-Compilation]] ([gh](#4-build-systems-make-cmake-cross-compilation)) — toolchain files, target properties, presets, link order, CI diagnosis
+- **§19** [[#19. Docker and Containerized Development|Docker and Containerized Development]] ([gh](#19-docker-and-containerized-development)) — kernel mechanics, layers and caching, cross-compile images, multi-arch, fleet deployment
 
 ### Part II — Hardware and Low-Level
 
-- 17. [[#17. Low-Level Hardware and C Fundamentals|Low-Level Hardware and C Fundamentals]] — memory maps and MMIO, barriers vs atomics, stack sizing, interrupts, DMA, ADC, PWM, HardFault debugging, serialization
-- 6. [[#6. RTOS, Interrupts, State Machines, Embedded Architecture|RTOS, Interrupts, State Machines, Embedded Architecture]]
-- 11. [[#11. MCU Platforms and Toolchains|MCU Platforms and Toolchains]] — platform selection, HAL vs Zephyr, errata, flash and caches, bootloaders with A/B, low power, clock trees
-- 8. [[#8. Schematic Capture and PCB Design|Schematic Capture and PCB Design]]
-- 9. [[#9. Lab, Troubleshooting, Validation|Lab, Troubleshooting, Validation]]
+- **§17** [[#17. Low-Level Hardware and C Fundamentals|Low-Level Hardware and C Fundamentals]] ([gh](#17-low-level-hardware-and-c-fundamentals)) — memory maps and MMIO, barriers vs atomics, stack sizing, interrupts, DMA, ADC, PWM, HardFault debugging, serialization
+- **§6** [[#6. RTOS, Interrupts, State Machines, Embedded Architecture|RTOS, Interrupts, State Machines, Embedded Architecture]] ([gh](#6-rtos-interrupts-state-machines-embedded-architecture)) — scheduling, priority inversion, context switches, watchdogs, MPU, HSMs
+- **§11** [[#11. MCU Platforms and Toolchains|MCU Platforms and Toolchains]] ([gh](#11-mcu-platforms-and-toolchains)) — platform selection, HAL vs Zephyr, errata, flash and caches, bootloaders with A/B, low power, clock trees
+- **§8** [[#8. Schematic Capture and PCB Design|Schematic Capture and PCB Design]] ([gh](#8-schematic-capture-and-pcb-design)) — decoupling, impedance, return paths, stack-up, DFM, EMI, bring-up
+- **§9** [[#9. Lab, Troubleshooting, Validation|Lab, Troubleshooting, Validation]] ([gh](#9-lab-troubleshooting-validation)) — probing, dead-board debugging, JTAG/SWD, `perf`, timing validation, EMC pre-compliance
 
 ### Part III — Embedded Linux
 
-- 2. [[#2. Embedded Linux, Device Tree, Drivers, U-Boot|Embedded Linux, Device Tree, Drivers, U-Boot]]
-- 18. [[#18. Linux Drivers, Controllers, and Kernel Internals|Linux Drivers, Controllers, and Kernel Internals]] — device model and deferred probe, controller vs client drivers, `devm`, locking, DMA API, char devices, subsystems, runtime PM
-- 3. [[#3. Yocto and Buildroot|Yocto and Buildroot]]
+- **§2** [[#2. Embedded Linux, Device Tree, Drivers, U-Boot|Embedded Linux, Device Tree, Drivers, U-Boot]] ([gh](#2-embedded-linux-device-tree-drivers-u-boot)) — boot flow, device tree, driver model, sysfs/debugfs, PREEMPT_RT
+- **§18** [[#18. Linux Drivers, Controllers, and Kernel Internals|Linux Drivers, Controllers, and Kernel Internals]] ([gh](#18-linux-drivers-controllers-and-kernel-internals)) — device model and deferred probe, controller vs client drivers, `devm`, locking, DMA API, char devices, subsystems, runtime PM
+- **§3** [[#3. Yocto and Buildroot|Yocto and Buildroot]] ([gh](#3-yocto-and-buildroot)) — layers, recipes, sstate, SDKs, and when each tool is the right one
 
 ### Part IV — Connectivity and Protocols
 
-- 7. [[#7. Communication Protocols|Communication Protocols]] — overview of I2C/SPI/UART/CAN/Ethernet/BLE/MQTT/TLS
-- 20. [[#20. CAN, I2C, Ethernet, and Protobuf — Deep Dive|CAN, I2C, Ethernet, and Protobuf — Deep Dive]] — CAN bit timing and fault confinement, CAN-FD migration, SocketCAN, ISO-TP/UDS, DBC, I2C electrical limits, SMBus/I3C, PHY/MDIO, DSA/VLAN, PTP/TSN, Protobuf wire format and schema evolution
-- 12. [[#12. IoT-Adjacent Tech (Go, Python, JS/TS, SQL, Node.js)|IoT-Adjacent Tech (Go, Python, JS/TS, SQL, Node.js)]] — gateway languages, MQTT QoS, time-series storage, SQL plans, thundering herd
+- **§7** [[#7. Communication Protocols|Communication Protocols]] ([gh](#7-communication-protocols)) — overview of I2C/SPI/UART/RS-485/CAN/Ethernet/BLE/MQTT/TLS
+- **§20** [[#20. CAN, I2C, Ethernet, and Protobuf Deep Dive|CAN, I2C, Ethernet, and Protobuf Deep Dive]] ([gh](#20-can-i2c-ethernet-and-protobuf-deep-dive)) — CAN bit timing and fault confinement, CAN-FD migration, SocketCAN, ISO-TP/UDS, DBC, I2C electrical limits, SMBus/I3C, PHY/MDIO, DSA/VLAN, PTP/TSN, Protobuf wire format and schema evolution
+- **§12** [[#12. IoT-Adjacent Tech: Go, Python, JS and TS, SQL, Node|IoT-Adjacent Tech: Go, Python, JS and TS, SQL, Node]] ([gh](#12-iot-adjacent-tech-go-python-js-and-ts-sql-node)) — gateway languages, MQTT QoS, time-series storage, SQL plans, thundering herd
 
 ### Part V — Applications and Domain
 
-- 5. [[#5. Qt and QML|Qt and QML]]
-- 10. [[#10. Computer Vision, ML, and Embedded Deployment|Computer Vision, ML, and Embedded Deployment]] — pipelines and bandwidth, CPU/GPU/DSP/NPU, quantization, ISP tuning, calibration, field accuracy gaps
+- **§5** [[#5. Qt and QML|Qt and QML]] ([gh](#5-qt-and-qml)) — signals/slots, scene graph threading, property system, ownership, HMI architecture
+- **§10** [[#10. Computer Vision, ML, and Embedded Deployment|Computer Vision, ML, and Embedded Deployment]] ([gh](#10-computer-vision-ml-and-embedded-deployment)) — pipelines and bandwidth, CPU/GPU/DSP/NPU, quantization, ISP tuning, calibration, field accuracy gaps
 
 ### Reference
 
-- [[#Appendix — How to Use This Guide|Appendix — How to Use This Guide]]
+- [[#Appendix: How to Use This Guide|Appendix: How to Use This Guide]] ([gh](#appendix-how-to-use-this-guide)) — reading order, depth calibration, how to practise the scenario questions
 
 ---
 
-## 1. C/C++ for Embedded
+## 1. C and C++ for Embedded
 
 ### Q1.1 — Explain `volatile`, what it actually guarantees, and why it is *not* sufficient for sharing data between an ISR and main code.
 
@@ -2616,7 +2618,7 @@ My default recommendation: bare-metal or FreeRTOS for narrow, deeply real-time d
 
 ---
 
-## 12. IoT-Adjacent Tech (Go, Python, JS/TS, SQL, Node.js)
+## 12. IoT-Adjacent Tech: Go, Python, JS and TS, SQL, Node
 
 ### Q12.1 — Why does Go show up so often in IoT backends and edge gateways? What are its trade-offs vs C++ for that role?
 
@@ -2817,7 +2819,7 @@ This is the thundering-herd problem, and it's a design flaw on both sides. Note 
 
 ---
 
-## 13. Advanced OOP in Modern C++ (C++17 and Later)
+## 13. Advanced OOP in Modern C++
 
 ### Q13.1 — Explain the C++ object model: what is an object's identity, lifetime, and storage duration, and why does `std::launder` exist?
 
@@ -5244,7 +5246,7 @@ And alerts on *trends*, not just thresholds: "disk free is declining linearly on
 
 ---
 
-## 20. CAN, I2C, Ethernet, and Protobuf — Deep Dive
+## 20. CAN, I2C, Ethernet, and Protobuf Deep Dive
 
 > §7 introduces these protocols. This section goes deeper: bit timing and error handling, Linux integration, higher-layer protocols, TSN/PTP, and serialization format design.
 
@@ -5703,7 +5705,7 @@ Two coupled failures: a CAN-side pipeline that loses freshness under load, and a
 
 ---
 
-## Appendix — How to Use This Guide
+## Appendix: How to Use This Guide
 
 **Reading order.** The sections are grouped thematically in the table of contents rather than in difficulty order. If you're preparing for a specific role, start with the two or three sections closest to the job description, then fill in adjacent ones — §1/§13/§16/§17 form the core C/C++ and hardware block; §2/§3/§18/§19 the Linux platform block; §7/§20 the connectivity block.
 
